@@ -661,3 +661,24 @@ img {
   color: var(--secondary-txt-color);
   margin: 0;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  padding: 63px 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.overlay-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.556;
+  letter-spacing: 0.03em;
+  color: var(--additional-txt-color);
+}
+
+.project-thumb {
+  position: relative;
+}
